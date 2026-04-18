@@ -3,12 +3,15 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneTransitioner : MonoBehaviour {
-	private AsyncOperation loadingOp;
+	private AsyncOperation loadingOp = null;
 
-	void Start() {
+	void Awake() {
 	}
 
 	public void TransitionSceneTo(string targetScene) {
+		if(loadingOp != null) {
+			return;
+		}
 		loadingOp = SceneManager.LoadSceneAsync(targetScene);
 		loadingOp.allowSceneActivation = false;
 
@@ -28,5 +31,6 @@ public class SceneTransitioner : MonoBehaviour {
 		// yield return sceneTransAnimator.StopTransitionAnimation();
 
 		loadingOp.allowSceneActivation = true;
+		loadingOp = null;
 	}
 }

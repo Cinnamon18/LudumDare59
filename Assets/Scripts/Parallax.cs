@@ -6,7 +6,7 @@ public class Parallax : MonoBehaviour
 	[SerializeField] private Transform playerTrans;
     [SerializeField] private List<GameObject> backgrounds;
 	[Tooltip("For every x pixels the player moves, the background moves 1 pixel.")]
-    [SerializeField] private List<int> parallaxAmount;
+    [SerializeField] private List<float> parallaxAmount;
 
     private float prevPlayerXPosition = 0;
 

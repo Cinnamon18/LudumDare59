@@ -10,7 +10,7 @@ public class DeathScreen : MonoBehaviour {
 
 	IEnumerator GoToSavedScene() {
 		//Just to show off the effect 😇
-		yield return new WaitForSeconds(1f);
+		yield return new WaitForSeconds(1.5f);
 		var sceneTransitioner = FindObjectsByType<SceneTransitioner>(FindObjectsSortMode.None)[0];
 		sceneTransitioner.TransitionSceneTo(SceneToReturnTo);
 	}

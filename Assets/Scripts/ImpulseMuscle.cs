@@ -3,9 +3,10 @@ using UnityEngine;
 public class ImpulseMuscle : Muscle
 {
   [SerializeField] private new Rigidbody2D rigidbody2D;
-  public float scale;
-  public override void Activate(float strength)
+  public Vector2 direction;
+  public override void OnActivate(float strength)
   {
-    rigidbody2D.AddForce(scale * strength * Vector2.up, ForceMode2D.Impulse);
+    var worldDirection = rigidbody2D.transform.TransformDirection(direction);
+    rigidbody2D.AddForce(strength * worldDirection, ForceMode2D.Impulse);
   }
 }

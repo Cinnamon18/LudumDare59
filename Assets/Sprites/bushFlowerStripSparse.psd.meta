@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: e78d1519c72e9384ca382c2ba82c341d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5407334739134792365
+    second: bushFlowerStripSparse_0
+  - first:
+      213: 132291634624598202
+    second: bushFlowerStripSparse_1
+  - first:
+      213: -8056357228738850272
+    second: bushFlowerStripSparse_2
+  - first:
+      213: 3384166555877176882
+    second: bushFlowerStripSparse_3
+  - first:
+      213: -6313677977504880496
+    second: bushFlowerStripSparse_4
+  - first:
+      213: 8688350798770760200
+    second: bushFlowerStripSparse_5
+  - first:
+      213: 6368920170864358156
+    second: bushFlowerStripSparse_6
+  - first:
+      213: 8937527871480370568
+    second: bushFlowerStripSparse_7
+  - first:
+      213: 7887264403904566398
+    second: bushFlowerStripSparse_8
+  - first:
+      213: -8939000273681597492
+    second: bushFlowerStripSparse_9
+  - first:
+      213: 4037514306985247695
+    second: bushFlowerStripSparse_10
+  - first:
+      213: 830973355544078436
+    second: bushFlowerStripSparse_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bushFlowerStripSparse_0
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 2
+        width: 74
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35dbd3c34b945f4b0800000000000000
+      internalID: -5407334739134792365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bushFlowerStripSparse_1
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 0
+        width: 75
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab01e807a8ef5d100800000000000000
+      internalID: 132291634624598202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bushFlowerStripSparse_2
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 0
+        width: 213
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022de5de8c1123090800000000000000
+      internalID: -8056357228738850272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bushFlowerStripSparse_3
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 0
+        width: 70
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236f0df6d89f6fe20800000000000000
+      internalID: 3384166555877176882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bushFlowerStripSparse_4
+      rect:
+        serializedVersion: 2
+        x: 2821
+        y: 4
+        width: 75
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0986d9ca45f4168a0800000000000000
+      internalID: -6313677977504880496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bushFlowerStripSparse_5
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 0
+        width: 74
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a66b4c409339870800000000000000
+      internalID: 8688350798770760200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bushFlowerStripSparse_6
+      rect:
+        serializedVersion: 2
+        x: 3774
+        y: 2
+        width: 75
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03b033c623f26850800000000000000
+      internalID: 6368920170864358156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bushFlowerStripSparse_7
+      rect:
+        serializedVersion: 2
+        x: 3896
+        y: 2
+        width: 70
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8859dbdfe3a780c70800000000000000
+      internalID: 8937527871480370568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bushFlowerStripSparse_8
+      rect:
+        serializedVersion: 2
+        x: 4508
+        y: 0
+        width: 74
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e749054df21357d60800000000000000
+      internalID: 7887264403904566398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bushFlowerStripSparse_9
+      rect:
+        serializedVersion: 2
+        x: 4754
+        y: 0
+        width: 213
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbb618ac9a42f380800000000000000
+      internalID: -8939000273681597492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bushFlowerStripSparse_10
+      rect:
+        serializedVersion: 2
+        x: 5139
+        y: 0
+        width: 75
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3c96bded1280830800000000000000
+      internalID: 4037514306985247695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bushFlowerStripSparse_11
+      rect:
+        serializedVersion: 2
+        x: 5756
+        y: 2
+        width: 70
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468e40b3dd5388b00800000000000000
+      internalID: 830973355544078436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bushFlowerStripSparse_0: -5407334739134792365
+      bushFlowerStripSparse_1: 132291634624598202
+      bushFlowerStripSparse_10: 4037514306985247695
+      bushFlowerStripSparse_11: 830973355544078436
+      bushFlowerStripSparse_2: -8056357228738850272
+      bushFlowerStripSparse_3: 3384166555877176882
+      bushFlowerStripSparse_4: -6313677977504880496
+      bushFlowerStripSparse_5: 8688350798770760200
+      bushFlowerStripSparse_6: 6368920170864358156
+      bushFlowerStripSparse_7: 8937527871480370568
+      bushFlowerStripSparse_8: 7887264403904566398
+      bushFlowerStripSparse_9: -8939000273681597492
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7,11 +7,11 @@ public class DemoPlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetAxis("Horizontal") > 0) {
-			rb.linearVelocity += (transform.right.V2() * Time.deltaTime * 15);
+        if(Input.GetAxis("Horizontal") != 0) {
+			rb.linearVelocity += (Input.GetAxis("Horizontal") * transform.right.V2() * Time.deltaTime * 15);
 		}
-        if(Input.GetAxis("Vertical") > 0) {
-			rb.linearVelocity += (transform.up.V2() * Time.deltaTime * 15);
+        if(Input.GetAxis("Vertical") != 0) {
+			rb.linearVelocity += (Input.GetAxis("Vertical") * transform.up.V2() * Time.deltaTime * 15);
 		}
     }
 }

@@ -2020,6 +2020,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 663598847842245133, guid: b2259060470c05c4596ea9302394ec75, type: 3}
+      propertyPath: m_Size.x
+      value: 2.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 663598847842245133, guid: b2259060470c05c4596ea9302394ec75, type: 3}
+      propertyPath: m_Size.y
+      value: 1.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 663598847842245133, guid: b2259060470c05c4596ea9302394ec75, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ad3f80f61c9fdb243a0aeccf9b840841, type: 3}
+    - target: {fileID: 663598847842245133, guid: b2259060470c05c4596ea9302394ec75, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4750160554581050276, guid: b2259060470c05c4596ea9302394ec75, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.62
@@ -2063,6 +2079,10 @@ PrefabInstance:
     - target: {fileID: 6158594815995591901, guid: b2259060470c05c4596ea9302394ec75, type: 3}
       propertyPath: m_Name
       value: Spikes
+      objectReference: {fileID: 0}
+    - target: {fileID: 6208189229437261267, guid: b2259060470c05c4596ea9302394ec75, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

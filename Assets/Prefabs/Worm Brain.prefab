@@ -35,7 +35,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 113, y: 196}
+  m_AnchoredPosition: {x: 107, y: 264}
   m_SizeDelta: {x: -413.5278, y: -860.7744}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8352005414642512946
@@ -125,7 +125,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -95, y: 254}
+  m_AnchoredPosition: {x: -136, y: 139}
   m_SizeDelta: {x: -413.5278, y: -860.7744}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &868316963254621174
@@ -178,7 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a37e013b0223a544a1bda80b168f808, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BrainNerve
-  radius: 184.4
+  radius: 143.2
   signal: CurlLeft
 --- !u!1 &8158444894382728540
 GameObject:
@@ -215,7 +215,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1, y: 5}
+  m_AnchoredPosition: {x: -6, y: -3}
   m_SizeDelta: {x: -413.5278, y: -860.7744}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3417306459777930346
@@ -268,7 +268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a37e013b0223a544a1bda80b168f808, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BrainNerve
-  radius: 200
+  radius: 173.6
   signal: PullForward
 --- !u!1 &9066389222006857735
 GameObject:

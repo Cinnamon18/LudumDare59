@@ -8,15 +8,18 @@ public class HingeMotorMuscle : Muscle {
   public override void OnActivate(float strength) {
     if (strength < 0) return;
     hingeJoint.useMotor = true;
-    hingeJoint.motor = new() {
-      motorSpeed = speed * strength,
-      maxMotorTorque = 1000
-    };
+		var motor = hingeJoint.motor;
+    motor.motorSpeed += speed * strength;
+		hingeJoint.motor = motor;
     StartCoroutine(DelayedDisableMotor());
   }
 
   IEnumerator DelayedDisableMotor() {
     yield return new WaitForSeconds(holdTime);
+		hingeJoint.motor = new() {
+      motorSpeed = 0,
+			maxMotorTorque = 1000,
+    };
     hingeJoint.useMotor = false;
   }
 }

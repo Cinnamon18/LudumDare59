@@ -8,7 +8,6 @@ public class HingeMotorMuscle : Muscle
   public float holdTime;
   public override void OnActivate(float strength)
   {
-    Debug.Log($"Muscle: {name} got strength: {strength}");
     if (strength < 0) return;
     hingeJoint.useMotor = true;
     hingeJoint.motor = new()

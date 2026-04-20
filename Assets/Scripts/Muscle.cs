@@ -9,7 +9,6 @@ public abstract class Muscle : MonoBehaviour
   {
     var diff = Time.time - lastActivation;
     if (diff < cooldownTime) {
-      Debug.Log("Skipped");
       return;
     }
     OnActivate(strength);

@@ -32,7 +32,6 @@ public class BrainInput : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
   public void OnPointerDown(PointerEventData eventData)
   {
     pressed = true;
-    Debug.Log("Click? arooni");
     OnPointerMove(eventData);
   }
 

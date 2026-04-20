@@ -2,9 +2,9 @@ using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
 public class Hitbox : MonoBehaviour {
-	[SerializeField] private SpriteRenderer spriteRenderer;
+  [SerializeField] private SpriteRenderer spriteRenderer;
 
-	void Start() {
-		spriteRenderer.enabled = false;
-	}
+  void Start() {
+    spriteRenderer.enabled = false;
+  }
 }

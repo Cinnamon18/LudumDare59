@@ -3553,6 +3553,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2673598699175309995, guid: 70c487784a8411a429ea60c7fa5a4d46, type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2922712556195472200, guid: 70c487784a8411a429ea60c7fa5a4d46, type: 3}
       propertyPath: playerTrans
       value: 
@@ -3600,6 +3604,10 @@ PrefabInstance:
     - target: {fileID: 7243994744283189662, guid: 70c487784a8411a429ea60c7fa5a4d46, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7711378597169276102, guid: 70c487784a8411a429ea60c7fa5a4d46, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

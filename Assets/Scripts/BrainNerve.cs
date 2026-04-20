@@ -4,14 +4,12 @@ using UnityEditor;
 #endif
 using UnityEngine;
 
-public class BrainNerve : MonoBehaviour
-{
+public class BrainNerve : MonoBehaviour {
   public float radius;
   public string signal;
 
 #if UNITY_EDITOR
-  private void OnDrawGizmos()
-  {
+  private void OnDrawGizmos() {
     float worldRadius = radius * transform.lossyScale.x;
     Handles.color = new Color(0f, 1f, 1f, 0.25f);
     Handles.DrawSolidDisc(transform.position, transform.forward, worldRadius);

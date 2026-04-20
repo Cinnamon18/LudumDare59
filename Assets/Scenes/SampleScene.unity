@@ -1708,9 +1708,21 @@ PrefabInstance:
       propertyPath: nervousSystem
       value: 
       objectReference: {fileID: 1290911288}
+    - target: {fileID: 3118908343783752140, guid: 007b280f5236d0e44970697c28b4e5fd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3879620101061124313, guid: 007b280f5236d0e44970697c28b4e5fd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7506494862792577224, guid: 007b280f5236d0e44970697c28b4e5fd, type: 3}
       propertyPath: m_Name
       value: Control UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506494862792577224, guid: 007b280f5236d0e44970697c28b4e5fd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8054059020908259806, guid: 007b280f5236d0e44970697c28b4e5fd, type: 3}
       propertyPath: m_Pivot.x
@@ -3573,6 +3585,10 @@ PrefabInstance:
       propertyPath: playerTrans
       value: 
       objectReference: {fileID: 1306804694}
+    - target: {fileID: 3157147604425492532, guid: 70c487784a8411a429ea60c7fa5a4d46, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4899855558458378453, guid: 70c487784a8411a429ea60c7fa5a4d46, type: 3}
       propertyPath: m_Name
       value: GameManager

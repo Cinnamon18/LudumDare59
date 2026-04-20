@@ -20,6 +20,7 @@ public class NervousSystem : MonoBehaviour
 
   public void Activate(string name, float value)
   {
+    Debug.Log($"Activating {name} with at {value}");
     NerveSignal.GetValueOrDefault(name)?.Invoke(value);
   }
 }

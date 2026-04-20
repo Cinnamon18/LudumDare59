@@ -32,6 +32,7 @@ public class BrainInput : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
   public void OnPointerDown(PointerEventData eventData)
   {
     pressed = true;
+    Debug.Log($"Clicked on {name}");
     OnPointerMove(eventData);
   }
 

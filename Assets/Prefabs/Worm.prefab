@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 411316628036181906}
   m_Layer: 0
   m_Name: Worm
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68,6 +68,7 @@ GameObject:
   - component: {fileID: 1910160857974117699}
   - component: {fileID: 2295661234396486070}
   - component: {fileID: 5258838303944392874}
+  - component: {fileID: 7670047243087962010}
   m_Layer: 0
   m_Name: bone_2
   m_TagString: Untagged
@@ -170,7 +171,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.55, y: 0}
-  m_ConnectedAnchor: {x: -0.5174954, y: 0.00896446}
+  m_ConnectedAnchor: {x: -0.5174961, y: 0.008963507}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -198,8 +199,20 @@ RelativeJoint2D:
   m_MaxTorque: 0.3
   m_CorrectionScale: 0.3
   m_AutoConfigureOffset: 1
-  m_LinearOffset: {x: 1.0672805, y: -0.0173991}
+  m_LinearOffset: {x: 1.067281, y: -0.0173972}
   m_AngularOffset: 359.06604
+--- !u!114 &7670047243087962010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1270914779345051904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a21e18fae0b54094ca00cf52ed5b6d33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Killable
 --- !u!1 &1711788512579500976
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,6 +379,7 @@ GameObject:
   - component: {fileID: 2595886933154186193}
   - component: {fileID: 7404223013961880446}
   - component: {fileID: 1254700287930240364}
+  - component: {fileID: 1558028994494775865}
   m_Layer: 0
   m_Name: bone_1
   m_TagString: Untagged
@@ -468,7 +482,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.55, y: 0}
-  m_ConnectedAnchor: {x: -0.26628682, y: 0.0012736571}
+  m_ConnectedAnchor: {x: -0.2662862, y: 0.0012726929}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -496,8 +510,20 @@ RelativeJoint2D:
   m_MaxTorque: 0.3
   m_CorrectionScale: 0.3
   m_AutoConfigureOffset: 1
-  m_LinearOffset: {x: 0.8162861, y: 0.001512927}
+  m_LinearOffset: {x: 0.81628597, y: 0.0015129275}
   m_AngularOffset: 0.5994311
+--- !u!114 &1558028994494775865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2291580693596774056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a21e18fae0b54094ca00cf52ed5b6d33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Killable
 --- !u!1 &4495947326412918318
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,6 +535,7 @@ GameObject:
   - component: {fileID: 2966349348058511643}
   - component: {fileID: 5942429677939365633}
   - component: {fileID: 3889668455196272171}
+  - component: {fileID: 1422782493056758977}
   m_Layer: 0
   m_Name: bone_4
   m_TagString: Untagged
@@ -595,6 +622,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1422782493056758977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4495947326412918318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a21e18fae0b54094ca00cf52ed5b6d33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Killable
 --- !u!1 &6019101001622319728
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,6 +858,7 @@ GameObject:
   - component: {fileID: 2052973473503468906}
   - component: {fileID: 6753906743505608881}
   - component: {fileID: 8132544197798635590}
+  - component: {fileID: 1914950697425880034}
   m_Layer: 0
   m_Name: bone_3
   m_TagString: Untagged
@@ -921,7 +961,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.55, y: 0}
-  m_ConnectedAnchor: {x: -0.49230456, y: 0.012558058}
+  m_ConnectedAnchor: {x: -0.49230385, y: 0.012559965}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -949,5 +989,17 @@ RelativeJoint2D:
   m_MaxTorque: 0.3
   m_CorrectionScale: 0.3
   m_AutoConfigureOffset: 1
-  m_LinearOffset: {x: 1.0423045, y: -0.012557826}
+  m_LinearOffset: {x: 1.042304, y: -0.012559733}
   m_AngularOffset: -360
+--- !u!114 &1914950697425880034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9096163903178953158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a21e18fae0b54094ca00cf52ed5b6d33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Killable

@@ -786,20 +786,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: b587a8bc3b3ccc44f8e39ccf0c9ace2c, type: 3}
     - target: {fileID: 1254700287930240364, guid: 01971df12bca1b84394f1ea51117da15, type: 3}
+      propertyPath: m_AngularOffset
+      value: 0.59944475
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254700287930240364, guid: 01971df12bca1b84394f1ea51117da15, type: 3}
       propertyPath: m_LinearOffset.x
-      value: 0.81628597
+      value: 0.8162857
       objectReference: {fileID: 0}
     - target: {fileID: 1254700287930240364, guid: 01971df12bca1b84394f1ea51117da15, type: 3}
       propertyPath: m_LinearOffset.y
-      value: 0.0015129275
+      value: 0.001514256
       objectReference: {fileID: 0}
     - target: {fileID: 2295661234396486070, guid: 01971df12bca1b84394f1ea51117da15, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -0.5174961
+      value: -0.51749635
       objectReference: {fileID: 0}
     - target: {fileID: 2295661234396486070, guid: 01971df12bca1b84394f1ea51117da15, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 0.008963507
+      value: 0.008962407
       objectReference: {fileID: 0}
     - target: {fileID: 3656042551514213496, guid: 01971df12bca1b84394f1ea51117da15, type: 3}
       propertyPath: m_LocalPosition.x
@@ -842,36 +846,44 @@ PrefabInstance:
       value: -66.53
       objectReference: {fileID: 0}
     - target: {fileID: 5258838303944392874, guid: 01971df12bca1b84394f1ea51117da15, type: 3}
+      propertyPath: m_AngularOffset
+      value: -0.9339806
+      objectReference: {fileID: 0}
+    - target: {fileID: 5258838303944392874, guid: 01971df12bca1b84394f1ea51117da15, type: 3}
       propertyPath: m_LinearOffset.x
-      value: 1.067281
+      value: 1.0672814
       objectReference: {fileID: 0}
     - target: {fileID: 5258838303944392874, guid: 01971df12bca1b84394f1ea51117da15, type: 3}
       propertyPath: m_LinearOffset.y
-      value: -0.0173972
+      value: -0.017397046
       objectReference: {fileID: 0}
     - target: {fileID: 6753906743505608881, guid: 01971df12bca1b84394f1ea51117da15, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -0.49230385
+      value: -0.49230474
       objectReference: {fileID: 0}
     - target: {fileID: 6753906743505608881, guid: 01971df12bca1b84394f1ea51117da15, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 0.012559965
+      value: 0.012559565
       objectReference: {fileID: 0}
     - target: {fileID: 7404223013961880446, guid: 01971df12bca1b84394f1ea51117da15, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -0.2662862
+      value: -0.2662866
       objectReference: {fileID: 0}
     - target: {fileID: 7404223013961880446, guid: 01971df12bca1b84394f1ea51117da15, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 0.0012726929
+      value: 0.0012727603
+      objectReference: {fileID: 0}
+    - target: {fileID: 8132544197798635590, guid: 01971df12bca1b84394f1ea51117da15, type: 3}
+      propertyPath: m_AngularOffset
+      value: 0.0000136603785
       objectReference: {fileID: 0}
     - target: {fileID: 8132544197798635590, guid: 01971df12bca1b84394f1ea51117da15, type: 3}
       propertyPath: m_LinearOffset.x
-      value: 1.042304
+      value: 1.0423045
       objectReference: {fileID: 0}
     - target: {fileID: 8132544197798635590, guid: 01971df12bca1b84394f1ea51117da15, type: 3}
       propertyPath: m_LinearOffset.y
-      value: -0.012559733
+      value: -0.012559444
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

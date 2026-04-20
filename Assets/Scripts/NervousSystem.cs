@@ -5,16 +5,15 @@ using UnityEngine;
 public class NervousSystem : MonoBehaviour {
   private readonly Dictionary<string, Action<float>> NerveSignal = new();
 
-  public void Register(string name, Action<float> f) {
-    if (NerveSignal.ContainsKey(name)) {
-      NerveSignal[name] += f;
+  public void Register(string signal, Action<float> f) {
+    if (NerveSignal.ContainsKey(signal)) {
+      NerveSignal[signal] += f;
     } else {
-      NerveSignal[name] = f;
+      NerveSignal[signal] = f;
     }
   }
 
-  public void Activate(string name, float value) {
-    Debug.Log($"Activating {name} with at {value}");
-    NerveSignal.GetValueOrDefault(name)?.Invoke(value);
+  public void Activate(string signal, float strength) {
+    NerveSignal.GetValueOrDefault(signal)?.Invoke(strength);
   }
 }

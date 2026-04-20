@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c88f0230807809b4f91df321a82dedd0
+guid: ede7a5adc3d2b4a4dbefac29b969f685
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3364756215631493408
-    second: WormBW_0
+      213: -2306044116031659723
+    second: groundTileWithEdges_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,26 +37,26 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 0
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.6}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteBorder: {x: 34, y: 22, z: 34, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -72,10 +72,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,33 +113,37 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WormBW_0
+      name: groundTileWithEdges_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 62
-        width: 421
-        height: 77
+        x: 0
+        y: 0
+        width: 709
+        height: 362
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 33, y: 0, z: 36, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e64f739c0cfd41d0800000000000000
-      internalID: -3364756215631493408
+      spriteID: 531ad8b28194fffd0800000000000000
+      internalID: -2306044116031659723
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
     customData: 
-    physicsShape: []
+    physicsShape:
+    - - {x: -354.5, y: -227}
+      - {x: 354.5, y: -227}
+      - {x: 354.5, y: 73}
+      - {x: -354.5, y: 73}
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    spriteID: 6c8d45293fe40b642b0f4def1472721c
+    internalID: -2036804050
     vertices: []
     indices: 
     edges: []
@@ -148,7 +152,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WormBW_0: -3364756215631493408
+      groundTileWithEdges_0: -2306044116031659723
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

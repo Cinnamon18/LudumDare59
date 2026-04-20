@@ -7,7 +7,7 @@ public class ControllableCreature : MonoBehaviour {
 
   void Start() {
     foreach (var muscle in muscles) {
-      nervousSystem.Register(muscle.name, muscle.Activate);
+      nervousSystem.Register(muscle.signal, muscle.Activate);
     }
   }
 }

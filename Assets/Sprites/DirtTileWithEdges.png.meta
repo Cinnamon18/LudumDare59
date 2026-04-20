@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c88f0230807809b4f91df321a82dedd0
+guid: 6d629eeef6ac427409baac6a7d71a5a8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3364756215631493408
-    second: WormBW_0
+      213: -8218361418187920779
+    second: DirtTileWithEdges_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,19 +40,19 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 0
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.64}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 27, y: 0, z: 40, w: 0}
   spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WormBW_0
+      name: DirtTileWithEdges_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 62
-        width: 421
-        height: 77
+        x: 0
+        y: 0
+        width: 709
+        height: 454
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 38, y: 0, z: 42, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e64f739c0cfd41d0800000000000000
-      internalID: -3364756215631493408
+      spriteID: 57a222935d382fd80800000000000000
+      internalID: -8218361418187920779
       vertices: []
       indices: 
       edges: []
@@ -138,8 +138,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    spriteID: 78ac508ccc71bfc439c594a2939cd9c4
+    internalID: -339689887
     vertices: []
     indices: 
     edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WormBW_0: -3364756215631493408
+      DirtTileWithEdges_0: -8218361418187920779
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

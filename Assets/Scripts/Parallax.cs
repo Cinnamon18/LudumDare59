@@ -17,7 +17,7 @@ public class Parallax : MonoBehaviour {
     prevPlayerXPosition = playerTrans.position.x;
   }
 
-  void LateUpdate() {
+  void Update() {
     var xDelta = playerTrans.position.x - prevPlayerXPosition;
     for (int i = 0; i < backgrounds.Count; i++) {
       backgrounds[i].transform.position += Vector3.right * xDelta * (1f / parallaxAmount[i]);

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c88f0230807809b4f91df321a82dedd0
+guid: af1ee97231b0b0744900b8642d0f5dab
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3364756215631493408
-    second: WormBW_0
+      213: -4314549291068851968
+    second: groundTileWithEdgesNoBottom_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,9 +40,9 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -52,8 +52,8 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteBorder: {x: 34, y: 0, z: 34, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WormBW_0
+      name: groundTileWithEdgesNoBottom_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 62
-        width: 421
-        height: 77
+        x: 0
+        y: 10
+        width: 709
+        height: 352
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e64f739c0cfd41d0800000000000000
-      internalID: -3364756215631493408
+      spriteID: 0097deb7744af14c0800000000000000
+      internalID: -4314549291068851968
       vertices: []
       indices: 
       edges: []
@@ -139,7 +139,7 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WormBW_0: -3364756215631493408
+      groundTileWithEdgesNoBottom_0: -4314549291068851968
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

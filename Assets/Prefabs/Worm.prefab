@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7688535689786972642}
   - component: {fileID: 7975528681119826997}
   m_Layer: 0
-  m_Name: AudioMuscle (1)
+  m_Name: PullForward
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -416,7 +416,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.55, y: 0}
-  m_ConnectedAnchor: {x: -0.51749533, y: 0.00896361}
+  m_ConnectedAnchor: {x: -0.5174956, y: 0.008964165}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -444,8 +444,8 @@ RelativeJoint2D:
   m_MaxTorque: 0.3
   m_CorrectionScale: 0.3
   m_AutoConfigureOffset: 1
-  m_LinearOffset: {x: 1.0672805, y: -0.017397728}
-  m_AngularOffset: 359.06604
+  m_LinearOffset: {x: 1.0672805, y: -0.017398775}
+  m_AngularOffset: -0.9339806
 --- !u!114 &7670047243087962010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -471,7 +471,7 @@ GameObject:
   - component: {fileID: 4462473899256006490}
   - component: {fileID: 6221528707779838928}
   m_Layer: 0
-  m_Name: AudioMuscle
+  m_Name: CurlRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -872,7 +872,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.55, y: 0}
-  m_ConnectedAnchor: {x: -0.26628697, y: 0.001272617}
+  m_ConnectedAnchor: {x: -0.2662882, y: 0.0012692809}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -900,8 +900,8 @@ RelativeJoint2D:
   m_MaxTorque: 0.3
   m_CorrectionScale: 0.3
   m_AutoConfigureOffset: 1
-  m_LinearOffset: {x: 0.81628615, y: 0.0015133084}
-  m_AngularOffset: 0.5994311
+  m_LinearOffset: {x: 0.8162865, y: 0.0015160143}
+  m_AngularOffset: 0.59944475
 --- !u!114 &1558028994494775865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1204,7 +1204,7 @@ GameObject:
   - component: {fileID: 9196072768508848553}
   - component: {fileID: 5330073123260184613}
   m_Layer: 0
-  m_Name: AudioMuscle
+  m_Name: CurlLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1381,9 +1381,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd21b711c81bb1942996b76ec64f9f83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ImpulseMuscle
-  cooldownTime: 0.3
+  cooldownTime: 0.2
   rigidbody2D: {fileID: 2595886933154186193}
-  direction: {x: -20, y: 0}
+  direction: {x: -11, y: 0}
 --- !u!1 &9096163903178953158
 GameObject:
   m_ObjectHideFlags: 0
@@ -1500,7 +1500,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.55, y: 0}
-  m_ConnectedAnchor: {x: -0.49230438, y: 0.012559195}
+  m_ConnectedAnchor: {x: -0.49230397, y: 0.012561323}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -1528,8 +1528,8 @@ RelativeJoint2D:
   m_MaxTorque: 0.3
   m_CorrectionScale: 0.3
   m_AutoConfigureOffset: 1
-  m_LinearOffset: {x: 1.0423044, y: -0.012559046}
-  m_AngularOffset: -360
+  m_LinearOffset: {x: 1.0423038, y: -0.012561202}
+  m_AngularOffset: 0.0000136603785
 --- !u!114 &1914950697425880034
 MonoBehaviour:
   m_ObjectHideFlags: 0

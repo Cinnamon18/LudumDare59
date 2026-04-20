@@ -781,6 +781,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Worm
       objectReference: {fileID: 0}
+    - target: {fileID: 1173287023010894291, guid: 01971df12bca1b84394f1ea51117da15, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: b587a8bc3b3ccc44f8e39ccf0c9ace2c, type: 3}
     - target: {fileID: 1254700287930240364, guid: 01971df12bca1b84394f1ea51117da15, type: 3}
       propertyPath: m_LinearOffset.x
       value: 0.81628597
@@ -1831,11 +1835,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1899914978008042664, guid: 63f9d4fd16c0b8b459f744b869501356, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 30.05749
+      value: 30.531027
       objectReference: {fileID: 0}
     - target: {fileID: 1899914978008042664, guid: 63f9d4fd16c0b8b459f744b869501356, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.96621
+      value: 6.9636197
       objectReference: {fileID: 0}
     - target: {fileID: 1899914978008042664, guid: 63f9d4fd16c0b8b459f744b869501356, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3607,7 +3611,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7711378597169276102, guid: 70c487784a8411a429ea60c7fa5a4d46, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
-      value: 1
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

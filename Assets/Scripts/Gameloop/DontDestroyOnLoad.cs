@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DontDestroyOnLoad : MonoBehaviour {
   void Awake() {
-    if (FindObjectsByType<TemporaryTextDisplay>(FindObjectsSortMode.None).Length > 1) {
+    if (FindObjectsByType<DontDestroyOnLoad>(FindObjectsSortMode.None).Length > 1) {
       Destroy(this.gameObject);
     }
     DontDestroyOnLoad(this.gameObject);

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3656042551514213496}
   - component: {fileID: 411316628036181906}
+  - component: {fileID: 1173287023010894291}
   m_Layer: 0
   m_Name: Worm
   m_TagString: Player
@@ -55,6 +56,103 @@ MonoBehaviour:
   - {fileID: 1312659903738015084}
   - {fileID: 345929623397205444}
   - {fileID: 2539883560016467957}
+--- !u!82 &1173287023010894291
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026461130813348820}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: a1000e5aa8b83de42949d0c1108014fa, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1270914779345051904
 GameObject:
   m_ObjectHideFlags: 0
@@ -171,7 +269,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.55, y: 0}
-  m_ConnectedAnchor: {x: -0.5174961, y: 0.008963507}
+  m_ConnectedAnchor: {x: -0.51749533, y: 0.00896361}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -199,7 +297,7 @@ RelativeJoint2D:
   m_MaxTorque: 0.3
   m_CorrectionScale: 0.3
   m_AutoConfigureOffset: 1
-  m_LinearOffset: {x: 1.067281, y: -0.0173972}
+  m_LinearOffset: {x: 1.0672805, y: -0.017397728}
   m_AngularOffset: 359.06604
 --- !u!114 &7670047243087962010
 MonoBehaviour:
@@ -482,7 +580,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.55, y: 0}
-  m_ConnectedAnchor: {x: -0.2662862, y: 0.0012726929}
+  m_ConnectedAnchor: {x: -0.26628697, y: 0.001272617}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -510,7 +608,7 @@ RelativeJoint2D:
   m_MaxTorque: 0.3
   m_CorrectionScale: 0.3
   m_AutoConfigureOffset: 1
-  m_LinearOffset: {x: 0.81628597, y: 0.0015129275}
+  m_LinearOffset: {x: 0.81628615, y: 0.0015133084}
   m_AngularOffset: 0.5994311
 --- !u!114 &1558028994494775865
 MonoBehaviour:
@@ -961,7 +1059,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.55, y: 0}
-  m_ConnectedAnchor: {x: -0.49230385, y: 0.012559965}
+  m_ConnectedAnchor: {x: -0.49230438, y: 0.012559195}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -989,7 +1087,7 @@ RelativeJoint2D:
   m_MaxTorque: 0.3
   m_CorrectionScale: 0.3
   m_AutoConfigureOffset: 1
-  m_LinearOffset: {x: 1.042304, y: -0.012559733}
+  m_LinearOffset: {x: 1.0423044, y: -0.012559046}
   m_AngularOffset: -360
 --- !u!114 &1914950697425880034
 MonoBehaviour:

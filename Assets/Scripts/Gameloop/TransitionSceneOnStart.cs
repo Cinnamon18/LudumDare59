@@ -1,10 +1,10 @@
 using UnityEngine;
 
 public class TransitionSceneOnStart : MonoBehaviour {
-	[SerializeField] private string targetScene = "";
+  [SerializeField] private string targetScene = "";
 
-	void Start() {
-		var sceneTransitioner = GetComponent<SceneTransitioner>();
-		sceneTransitioner.TransitionSceneTo(targetScene);
-	}
+  void Start() {
+    var sceneTransitioner = GetComponent<SceneTransitioner>();
+    sceneTransitioner.TransitionSceneTo(targetScene);
+  }
 }

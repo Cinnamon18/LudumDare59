@@ -1,5 +1,8 @@
 using UnityEngine;
 
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 public class ShowTextOnTrigger : MonoBehaviour {
 	[SerializeField] private TemporaryTextDisplay tempTextDisplay;
@@ -18,4 +21,13 @@ public class ShowTextOnTrigger : MonoBehaviour {
 			tempTextDisplay.DisplayText(textToDisplay);
 		}
 	}
+
+	
+#if UNITY_EDITOR
+  private void OnDrawGizmos() {
+    Handles.color = new Color(1, 0, 0, 0.25f);
+    Handles.DrawSolidDisc(transform.position, transform.forward, 0.5f);
+  }
+#endif
+
 }
